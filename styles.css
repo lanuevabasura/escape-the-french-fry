@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#gameArea {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.character {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+#milei {
+    background-image: url('https://via.placeholder.com/50'); /* Replace with Milei's image URL */
+}
+
+#frenchFry {
+    background-image: url('https://via.placeholder.com/50/ff0000'); /* Replace with French fry's image URL */
+}
